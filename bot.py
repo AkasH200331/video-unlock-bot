@@ -3,7 +3,7 @@ import asyncio
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = os.environ.get('TOKEN')
+TOKEN = os.environ.get('TOKEn')
 
 AD_LINK = "https://www.effectivecpmnetwork.com/m9crbafj?key=955ca13aae348d36d62d00bff8367325"
 CHANNEL_ID = -1003846056544  # ඔයාගේ Channel ID එක දාන්න
