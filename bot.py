@@ -2,7 +2,14 @@ import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
+import os
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
+from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
+
 TOKEN = os.environ.get('TOKEN')
+print(f"DEBUG TOKEN: {repr(TOKEN)}")  # අලුතෙන්
+print(f"DEBUG TOKEN LENGTH: {len(TOKEN) if TOKEN else 'None'}")  # අලුතෙන්
+
 AD_LINK = "https://www.effectivecpmnetwork.com/m9crbafj?key=955ca13aae348d36d62d00bff8367325"
 CHANNEL_ID = -1003846056544
 VIDEO_MESSAGE_ID = 2
