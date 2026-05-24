@@ -6,7 +6,7 @@ import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = os.environ.get('TOKEN')
+TOKEN = os.environ.get('8929420918:AAGBG-uI1TYBQH_4p_7SZ5X9Nh0wbBtkQto')
 print(f"DEBUG TOKEN: {repr(TOKEN)}")  # අලුතෙන්
 print(f"DEBUG TOKEN LENGTH: {len(TOKEN) if TOKEN else 'None'}")  # අලුතෙන්
 
